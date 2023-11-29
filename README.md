@@ -21,7 +21,7 @@ We expect error returned from the function if:
 
 ## 'concatOdds' Function
 ### Unit test (in form of Expect [action] to be [some result])
-- Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be a integer array
+- Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an integer array
 - Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be result in [-1, 1, 3, 9, 15]
 - Expect concatOdds(3, 2, 1, 9, 1, 1, 1, 4, 15, -1) to be an error
 - Expect concatOdds(["a", 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an error
