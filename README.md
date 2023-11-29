@@ -1,5 +1,5 @@
 # block18.Workshop.WritingTestSpec
-
+## 'Multiplication' Function
 Expect multiply(2, 3) to be a number
 Expect multiply(2, 3) to be equal to 6
 Expect multiply("a", 3) to be an error
@@ -17,7 +17,7 @@ We expect error returned from the function if:
 - if any of the arguments is NOT numeric (i.e. strings, objects, arrays, etc.,)
 - if the number of arguments NOT 2 (i.e. only one argument, no arguments or more than two arguments)
 
-
+## 'concatOdds' Function
 Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be a integer array
 Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be result in [-1, 1, 3, 9, 15]
 Expect concatOdds(3, 2, 1, 9, 1, 1, 1, 4, 15, -1) to be an error
