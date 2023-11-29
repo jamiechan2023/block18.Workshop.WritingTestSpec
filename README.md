@@ -16,8 +16,8 @@ We expect the function to:
 - return product
 
 We expect error returned from the function if:
-- if any of the arguments is NOT numeric (i.e. strings, objects, arrays, etc.,)
-- if the number of arguments NOT 2 (i.e. only one argument, no arguments or more than two arguments)
+- any of the arguments is NOT numeric (i.e. strings, objects, arrays, etc.,)
+- the number of arguments NOT 2 (i.e. only one argument, no arguments or more than two arguments)
 
 ## 'concatOdds' Function
 ### Unit tests (in form of Expect [action] to be [some result])
@@ -37,6 +37,6 @@ We expect the function to:
 - return a new array with NO duplicate values 
 
 We expect error returned from the function if:
-- if any of the arguments is NOT an array 
-- if any of the elements in the pass in array is NOT numeric (i.e. string, object, etc.)
-- if the number of arguments NOT 2 (i.e. only one argument, no arguments or more than two arguments)
+- any of the arguments is NOT an array 
+- any of the elements in the pass in array is NOT numeric (i.e. string, object, etc.)
+- the number of arguments NOT 2 (i.e. only one argument, no arguments or more than two arguments)
