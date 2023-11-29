@@ -55,9 +55,9 @@ We expect error returned from the function if:
 10. when a user clicks "Next" on the Shipping Detail page but has not fill out all the required shipping information, they should be prompted to input the missing details
 11. when a user clicks "Next" on the Shipping Detail page and has filled in all the required shipping information, they should be shown the final total amount after including the shipping fee
 12. when a user clicks "Next" on the Final Total page, they should be taken to the next step of checkout which is the Payment Detail page
-13. when a user clicks "Complete" on the Payment Detail page but has not fill out all the required payment information, they should be prompted to input the missing details
-14. when a user clicks "Complete" on the Payment Detail page and has filled in all required payment information, they should be taken through the authentication process of the payment method they select
-15. when completed the authentication process for payment, they should be taken to the Order Confirmation page which will show a Order reference number
+13. when a user clicks "Process Payment" on the Payment Detail page but has not fill out all the required payment information, they should be prompted to input the missing details
+14. when a user clicks "Process Payment" on the Payment Detail page and has filled in all required payment information, they should be taken through the authentication process of the payment method they select
+15. when completed the authentication process for payment, they should be taken to the Order Confirmation page which will show an Order reference number
      
 
 
