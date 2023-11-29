@@ -50,7 +50,7 @@ We expect error returned from the function if:
 5. if a user clicks "Create Account" with an invalid email address or password, they should be shown an error
 6. if a user clicks "Create Account" and has filled in all the required information correctly, they should receive an email for account activation
 7. when a user checkout an emtpy shopping cart, they should be shown an error
-8. when a user clicks "Checkout" with items in the shopping cart, they should be taken to the Purchase detail page which will show all the purchase items, their quantities, tax and/or charges, the total amount and a "Confirm" button for user to confirm the purchase details 
+8. when a user clicks "Checkout" with items in the shopping cart, they should be taken to the Purchase Detail page which will show all the purchase items, their quantities, tax and/or charges, the total amount and a "Confirm" button for user to confirm the purchase details 
 9. when a user clicks "Confirm" on the Purchase Detail page, they should be taken to the next step of checkout which is the Shipping Detail page
 10. when a user clicks "Next" on the Shipping Detail page but has not fill out all the required shipping information, they should be prompted to input the missing details
 11. when a user clicks "Next" on the Shipping Detail page and has filled in all the required shipping information, they should be shown the final total amount after including the shipping fee
