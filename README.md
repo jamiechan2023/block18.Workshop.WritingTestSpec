@@ -43,7 +43,16 @@ We expect error returned from the function if:
 
 ## Shopping cart feature
 ### Function test 
-- 
+1. when a user clicks "Checkout" as guest, they should be asked if they want to create an account or log in
+2. if user want to continue checkout as guest, they should be allowed to proceed
+3. if user click "Log In" and has filled in their login and password correctly, they should be taken to the shopping cart page
+4. if user click "Create Accoun
+    
+5. when a user checkout an emtpy shopping cart, they should be shown an error
+6. when a user clicks "Checkout" , a page listing all the purchase items, their quantities, the total amount and a "Next" button for user to proceed to next page for delivery details
+7. when a user clicks "Next", a page for user to input delivery details
+8. when a user clicks "" 
+     
 
 
 
