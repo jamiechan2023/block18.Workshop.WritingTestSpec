@@ -50,9 +50,10 @@ We expect error returned from the function if:
 5. if user click "Create Account" with an invalid email address or password, they should be shown an error
 6. if user click "Create Account" and has filled in all the required information correctly, they should receive an email for account activation
 7. when a user checkout an emtpy shopping cart, they should be shown an error
-8. when a user clicks "Checkout" , a page listing all the purchase items, their quantities, the total amount and a "Next" button for user to proceed to next page for delivery details
-9. when a user clicks "Next", a page for user to input delivery details
-10. when a user clicks "" 
+8. when a user clicks "Checkout", a page listing all the purchase items, their quantities, the total amount and a "Confirm" button for user to confirm the purchase items
+9. when a user clicks "Confirm" on the shopping cart page, they should be taken to the Delivery page
+10. when a user has not fill out all the required delivery information, they should be prompted to input the missing details
+11. when a user has filled out all the required delivery information and click "Next", they should be taken to the Payment page
      
 
 
