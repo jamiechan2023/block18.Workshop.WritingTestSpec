@@ -53,7 +53,7 @@ We expect error returned from the function if:
 8. when a user clicks "Checkout", a page listing all the purchase items, their quantities, the total amount and a "Confirm" button for user to confirm the purchase items
 9. when a user clicks "Confirm" on the shopping cart page, they should be taken to the Delivery page
 10. when a user has not fill out all the required delivery information, they should be prompted to input the missing details
-11. when a user has filled out all the required delivery information and click "Next", they should be taken to the Payment page
+11. when a user has filled out all the required delivery information, they should be shown the final total amount including the shipping fee
      
 
 
