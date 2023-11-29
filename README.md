@@ -45,13 +45,14 @@ We expect error returned from the function if:
 ### Function test 
 1. when a user clicks "Checkout" as guest, they should be asked if they want to create an account or log in
 2. if user want to continue checkout as guest, they should be allowed to proceed
-3. if user click "Log In" and has filled in their login and password correctly, they should be taken to the shopping cart page
-4. if user click "Create Accoun
-    
-5. when a user checkout an emtpy shopping cart, they should be shown an error
-6. when a user clicks "Checkout" , a page listing all the purchase items, their quantities, the total amount and a "Next" button for user to proceed to next page for delivery details
-7. when a user clicks "Next", a page for user to input delivery details
-8. when a user clicks "" 
+3. if user click "Log In" but has filled out an incorrect login or password, they should be shown an error and prompted to sign up if they have not yet
+4. if user click "Log In" and has filled in their login and password correctly, they should be taken to the main page
+5. if user click "Create Account" with an invalid email address or password, they should be shown an error
+6. if user click "Create Account" and has filled in all the required information correctly, they should receive an email for account activation
+7. when a user checkout an emtpy shopping cart, they should be shown an error
+8. when a user clicks "Checkout" , a page listing all the purchase items, their quantities, the total amount and a "Next" button for user to proceed to next page for delivery details
+9. when a user clicks "Next", a page for user to input delivery details
+10. when a user clicks "" 
      
 
 
