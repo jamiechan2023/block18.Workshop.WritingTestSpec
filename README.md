@@ -1,12 +1,12 @@
 # block18.Workshop.WritingTestSpec
 ## 'Multiplication' Function
 ### Unit test (in form of Expect [action] to be [some result])
-Expect multiply(2, 3) to be a number
-Expect multiply(2, 3) to be equal to 6
-Expect multiply("a", 3) to be an error
-Expect multiply() to be an error
-Expect multiply(2) to be an error
-Expect multiply(2, 3, 4) to be an error
+- Expect multiply(2, 3) to be a number
+- Expect multiply(2, 3) to be equal to 6
+- Expect multiply("a", 3) to be an error
+- Expect multiply() to be an error
+- Expect multiply(2) to be an error
+- Expect multiply(2, 3, 4) to be an error
 
 ### Unit test (in form of pseudocode/plain English)
 We expect the function to:
@@ -21,13 +21,13 @@ We expect error returned from the function if:
 
 ## 'concatOdds' Function
 ### Unit test (in form of Expect [action] to be [some result])
-Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be a integer array
-Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be result in [-1, 1, 3, 9, 15]
-Expect concatOdds(3, 2, 1, 9, 1, 1, 1, 4, 15, -1) to be an error
-Expect concatOdds(["a", 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an error
-Expect concatOdds() to be an error
-Expect concatOdds([3, 2, 1]) to be an error
-Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1], [1,2,3]) to be an error
+- Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be a integer array
+- Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be result in [-1, 1, 3, 9, 15]
+- Expect concatOdds(3, 2, 1, 9, 1, 1, 1, 4, 15, -1) to be an error
+- Expect concatOdds(["a", 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an error
+- Expect concatOdds() to be an error
+- Expect concatOdds([3, 2, 1]) to be an error
+- Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1], [1,2,3]) to be an error
 
 ### Unit test (in form of pseudocode/plain English)
 We expect the function to:
