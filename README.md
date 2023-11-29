@@ -57,7 +57,7 @@ We expect error returned from the function if:
 12. when a user clicks "Next" on the Final total amount page, they should be taken to the next step for checkout which is the Payment detail page
 13. when a user clicks "Complete" on the Payment detail page but has not fill out all the payment information, they should be prompted to input the missing details
 14. when a user clicks "Complete" on the Payment detail page and has filled in all required payment information, they should be taken through the authentication process of the payment method they select
-15. when 
+15. when completed the authentication process of payment, they should be taken to the order confirmation page which will show a Order reference number
      
 
 
